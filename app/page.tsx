@@ -632,10 +632,12 @@ export default function ProfileBranding() {
                       >
                         <ExternalLink className="h-4 w-4 mr-1" />
                         Live Demo
-                      </Button>                      <Button
+                      </Button> 
+                      <Button
                         size="sm"
                         variant="outline"
                         className="border-slate-600 text-slate-300 hover:bg-slate-700 bg-transparent"
+                        onClick={() => window.open(project.link, "_blank")}
                       >
                         <Github className="h-4 w-4 mr-1" />
                         Code
