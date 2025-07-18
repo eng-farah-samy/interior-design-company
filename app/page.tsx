@@ -410,10 +410,10 @@ export default function ProfileBranding() {
                 <Button
                   size="lg"
                   className="bg-blue-600 hover:bg-blue-700 text-white font-semibold shadow-lg shadow-blue-500/25"
+                  onClick={() => window.open('/cv.pdf', '_blank')}
                 >
                   <Download className="h-5 w-5 mr-2" />
                   Download CV
-                  onClick={() => window.open('/cv.pdf', '_blank')}
                 </Button>
                 <Button
                   size="lg"
