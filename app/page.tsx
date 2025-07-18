@@ -413,6 +413,7 @@ export default function ProfileBranding() {
                 >
                   <Download className="h-5 w-5 mr-2" />
                   Download CV
+                  onClick={() => window.open('/cv.pdf', '_blank')}
                 </Button>
                 <Button
                   size="lg"
@@ -429,6 +430,7 @@ export default function ProfileBranding() {
                   variant="ghost"
                   size="icon"
                   className="text-slate-300 hover:text-white hover:bg-slate-800 h-12 w-12 border border-slate-700"
+                  onClick={() => window.open('https://github.com/eng-farah-samy', '_blank')}
                 >
                   <Github className="h-6 w-6" />
                 </Button>
@@ -436,6 +438,7 @@ export default function ProfileBranding() {
                   variant="ghost"
                   size="icon"
                   className="text-slate-300 hover:text-white hover:bg-slate-800 h-12 w-12 border border-slate-700"
+                  onClick={() => window.open('https://www.linkedin.com/in/farahsamy/', '_blank')}
                 >
                   <Linkedin className="h-6 w-6" />
                 </Button>
@@ -443,6 +446,7 @@ export default function ProfileBranding() {
                   variant="ghost"
                   size="icon"
                   className="text-slate-300 hover:text-white hover:bg-slate-800 h-12 w-12 border border-slate-700"
+                  onClick={() => window.open('mailto:eng.farah.samy@gmail.com', '_blank')}
                 >
                   <Mail className="h-6 w-6" />
                 </Button>
@@ -720,6 +724,7 @@ export default function ProfileBranding() {
             >
               <Mail className="h-5 w-5 mr-2" />
               Get In Touch
+              onClick={() => window.open('mailto:eng.farah.samy@gmail.com', '_blank')}
             </Button>
             <Button
               size="lg"
