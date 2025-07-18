@@ -290,7 +290,7 @@ export default function ProfileBranding() {
     {
       title: "Marketing Analysis",
       description: "A data-driven marketing analysis for May 2024, focusing on sales trends, customer behavior, and product performance. The insights helped identify top categories, measure engagement, and suggest operational improvements.",
-      image: "/photos/marketing_analysis.png?height=200&width=300",
+      image: "photos/marketing_analysis.png?height=200&width=300",
       tech: ["Python"],
       status: "Live",
       link: "https://www.kaggle.com/code/farahsamymohamed/marketing-analysis",
