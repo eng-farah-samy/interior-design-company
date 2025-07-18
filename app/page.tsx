@@ -572,17 +572,9 @@ export default function ProfileBranding() {
                 </CardHeader>
                 <CardContent className="space-y-4">
                   {skills.map((skill, index) => (
-                    <div key={index} className="space-y-2">
-                      <div className="flex justify-between items-center">
-                        <span className="text-white font-medium">{skill.name}</span>
-                        <span className="text-sm text-slate-400">{skill.level}%</span>
-                      </div>
-                      <div className="w-full bg-slate-700 rounded-full h-2.5">
-                        <div
-                          className={`h-2.5 rounded-full ${skill.color}`}
-                          style={{ width: `${skill.level}%` }}
-                        ></div>
-                      </div>
+                    <div key={index} className="flex items-center gap-2">
+                      <div className={`w-2 h-2 ${skill.color} rounded-full animate-pulse`}></div>
+                      <span className="text-white font-medium">{skill.name}</span>
                     </div>
                   ))}
                 </CardContent>
