@@ -10,9 +10,18 @@ export const metadata: Metadata = {
   robots: 'index, follow',
   openGraph: {
     title: 'Farah Samy - Data Analyst Specialist',
-    description: 'Check out my portfolio for data analysis projects and expertise.',
-    url: 'https://farah-samy.com', // استبدل برابط موقعك الفعلي
-    images: ['/farah.png'], // تأكد من وجود الصورة في مجلد public
+    description: 'Portfolio of Farah Samy, a skilled Data Analyst Specialist with expertise in Python, Power BI, and data visualization. Explore projects and experience.',
+    url: 'https://farahsamy.com',
+    siteName: 'Farah Samy',
+    images: [
+      {
+        url: '/og-image.png',
+        width: 1200,
+        height: 630,
+        alt: 'Farah Samy - Data Analyst Specialist',
+      },
+    ],
+    locale: 'en_US',
     type: 'website',
   },
 };
