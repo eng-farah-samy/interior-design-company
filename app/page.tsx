@@ -519,14 +519,18 @@ export default function ProfileBranding() {
                     improve their products and services, and achieve their strategic goals. I have a strong background in
                     statistics, programming, and data visualization, I am skilled in using a variety of tools and
                     technologies, including SQL, Python, R, Tableau, and Excel.
+                    
+                  </p>
+                  <p className="text-slate-300 leading-relaxed">
                     In addition to my analytical skills, I also lead a dedicated team that supports businesses from the ground up.
-                     We provide full services including website development, digital marketing, sales supervision, and comprehensive data analysis.
-                     Our mission is to help companies grow and reach a competitive level in the market by making informed, data-driven decisions.
+                    We provide full services including website development, digital marketing, sales supervision, and comprehensive data analysis.
+                    Our mission is to help companies grow and reach a competitive level in the market by making informed, data-driven decisions.
                   </p>
                   <p className="text-slate-300 leading-relaxed">
                     When I'm not coding, you'll find me exploring new technologies, contributing to open source
                     projects, or enjoying a good cup of coffee while brainstorming the next big idea.
                   </p>
+                  
                   <div className="flex items-center gap-2 text-blue-400">
                     <Coffee className="h-5 w-5" />
                     <span className="font-medium">Coffee enthusiast & problem solver</span>
