@@ -276,13 +276,7 @@ export default function ProfileBranding() {
     { name: "Databases", level: 85, color: "bg-purple-400" },
     { name: "Decision making ", level: 80, color: "bg-green-400" },
     { name: "Business intelligence ", level: 75, color: "bg-yellow-400" },
-    { name: "Python for data analysis", level: 70, color: "bg-orange-400" },
-    { name: "Statistics", level: 95, color: "bg-blue-400" },
-    { name: " Problem-solving", level: 90, color: "bg-blue-500" },
-    { name: "Intelligence Decision support system ", level: 85, color: "bg-purple-400" },
-    { name: "Data mining ", level: 80, color: "bg-green-400" },
-    { name: "Data warehousing ", level: 75, color: "bg-yellow-400" },
-    { name: " Information technology", level: 70, color: "bg-orange-400" },
+    
   ]
 
   // Projects data
