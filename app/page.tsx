@@ -625,11 +625,14 @@ export default function ProfileBranding() {
                       ))}
                     </div>
                     <div className="flex gap-2">
-                      <Button size="sm" className="bg-blue-600 hover:bg-blue-700">
+                      <Button
+                        size="sm"
+                        className="bg-blue-600 hover:bg-blue-700"
+                        onClick={() => window.open(project.link, "_blank")}
+                      >
                         <ExternalLink className="h-4 w-4 mr-1" />
                         Live Demo
-                      </Button>
-                      <Button
+                      </Button>                      <Button
                         size="sm"
                         variant="outline"
                         className="border-slate-600 text-slate-300 hover:bg-slate-700 bg-transparent"
