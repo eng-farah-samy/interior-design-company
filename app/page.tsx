@@ -290,7 +290,7 @@ export default function ProfileBranding() {
     {
       title: "Marketing Analysis",
       description: "A data-driven marketing analysis for May 2024, focusing on sales trends, customer behavior, and product performance. The insights helped identify top categories, measure engagement, and suggest operational improvements.",
-      image: "photos/marketing_analysis.png?height=200&width=300",
+      image: "/marketing_analysis.png?height=200&width=300",
       tech: ["Python"],
       status: "Live",
       link: "https://www.kaggle.com/code/farahsamymohamed/marketing-analysis",
@@ -299,7 +299,7 @@ export default function ProfileBranding() {
     {
       title: "Global Economic Indicators Dashboard",
       description: "This project provides a visual exploration of global economic indicators, leveraging data extracted from The World Bank. It aims to present interactive insights into population, GDP, and temperature changes over time. The dashboard allows users to drill down into specific country data to reveal more detailed economic indicators.",
-      image: "/photos/global_indicatopr.png?height=200&width=300",
+      image: "/global_indicatopr.png?height=200&width=300",
       tech: ["Power Bi", "Python", "Excel"],
       status: "Live",
       link: "https://github.com/eng-farah-samy/Global-Economic-Data-and-a-Polished-User-Experience",
@@ -308,7 +308,7 @@ export default function ProfileBranding() {
     {
       title: "Bike Sales Dashboard",
       description: "A focused data analysis project aimed at exploring factors influencing bike purchases. The process involved data cleaning, handling missing values, and visualizing key relationships—such as age, income, and community distance—to uncover insights and trends that drive customer buying behavior.",
-      image: "/photos/Bike sales.png?height=200&width=300",
+      image: "/Bike sales.png?height=200&width=300",
       tech: ["Power Bi", "Python", "Excel"],
       status: "Live",
       link: "https://github.com/eng-farah-samy/Bikes-Dataset",
@@ -317,7 +317,7 @@ export default function ProfileBranding() {
     {
       title: "Cars Sales Analysis",
       description: "This is the Car sales data set which includes information about different cars. This data set is being taken from Analytixlabs for the purpose of prediction My task is to analyze this dataset and provide insights to see which feature has more impact on car sales and carry out the result of this ",
-      image: "/photos/car_sales.png?height=200&width=300",
+      image: "/car_sales.png?height=200&width=300",
       tech: ["Power Bi", "Python", "Excel"],
       status: "Live",
       link: "https://github.com/eng-farah-samy/Car-sales",
@@ -326,7 +326,7 @@ export default function ProfileBranding() {
     {
       title: "Pizza Sales Analysis",
       description: "An interactive sales analysis for a pizza restaurant, focused on identifying best-selling items, peak order times, and customer preferences. Using data visualization and Python libraries, the project delivers actionable insights to optimize menu offerings and boost sales performance. ",
-      image: "/photos/pizza sales.png?height=200&width=300",
+      image: "/pizza sales.png?height=200&width=300",
       tech: ["Power Bi", "Python", "Excel"],
       status: "Live",
       link: "https://github.com/eng-farah-samy/Pizza-Place-Sales-analysis",
@@ -382,7 +382,7 @@ export default function ProfileBranding() {
             {/* Profile Image and Info */}
             <div className="flex items-center gap-6">
               <Avatar className="h-24 w-24 border-4 border-blue-400/30 shadow-2xl shadow-blue-500/20">
-                <AvatarImage src="/photos/farah.png?height=96&width=96" alt="Farah" />
+                <AvatarImage src="/farah.png?height=96&width=96" alt="Farah" />
                 <AvatarFallback className="text-2xl bg-gradient-to-r from-blue-500 to-purple-600 text-white">
                   A
                 </AvatarFallback>
