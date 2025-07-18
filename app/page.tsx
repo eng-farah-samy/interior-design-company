@@ -511,7 +511,7 @@ export default function ProfileBranding() {
                 </CardHeader>
                 <CardContent className="space-y-4">
                   <p className="text-slate-300 leading-relaxed">
-                    I am 23 years old and Got my bachelor’s in management
+                    I Got my bachelor’s in management
                     information system from Faculty of Business English Section  . I have a great knowledge of Data and
                     Business and I expanded my skills when I chose the Data analysis Career to analyze this data to get
                     better insights.
