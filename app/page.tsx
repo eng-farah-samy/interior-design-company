@@ -403,14 +403,7 @@ export default function ProfileBranding() {
             {/* Description and Actions */}
             <div className="flex-1 space-y-8">
               <p className="text-xl lg:text-2xl text-slate-300 leading-relaxed">
-                My names Farah Samy Mohamed I am 23 years old and Got my bachelor’s in management
-                information system from Faculty of Business English Section  . I have a great knowledge of Data and
-                Business and I expanded my skills when I chose the Data analysis Career to analyze this data to get
-                better insights.
-                As a data analyst, I am committed to using data to help organizations optimize their operations,
-                improve their products and services, and achieve their strategic goals. I have a strong background in
-                statistics, programming, and data visualization, I am skilled in using a variety of tools and
-                technologies, including SQL, Python, R, Tableau, and Excel.
+                Data Analyst Specialist
               </p>
 
               <div className="flex flex-wrap gap-4">
@@ -514,8 +507,14 @@ export default function ProfileBranding() {
                 </CardHeader>
                 <CardContent className="space-y-4">
                   <p className="text-slate-300 leading-relaxed">
-                    I'm a passionate Full Stack Developer with 5+ years of experience creating digital solutions that
-                    make a difference. I love turning complex problems into simple, beautiful, and intuitive designs.
+                    I am 23 years old and Got my bachelor’s in management
+                    information system from Faculty of Business English Section  . I have a great knowledge of Data and
+                    Business and I expanded my skills when I chose the Data analysis Career to analyze this data to get
+                    better insights.
+                    As a data analyst, I am committed to using data to help organizations optimize their operations,
+                    improve their products and services, and achieve their strategic goals. I have a strong background in
+                    statistics, programming, and data visualization, I am skilled in using a variety of tools and
+                    technologies, including SQL, Python, R, Tableau, and Excel.
                   </p>
                   <p className="text-slate-300 leading-relaxed">
                     When I'm not coding, you'll find me exploring new technologies, contributing to open source
