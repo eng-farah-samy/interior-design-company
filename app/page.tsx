@@ -721,10 +721,10 @@ export default function ProfileBranding() {
             <Button
               size="lg"
               className="bg-blue-600 hover:bg-blue-700 text-white font-semibold shadow-lg shadow-blue-500/25"
+              onClick={() => window.open('mailto:eng.farah.samy@gmail.com', '_blank')}
             >
               <Mail className="h-5 w-5 mr-2" />
               Get In Touch
-              onClick={() => window.open('mailto:eng.farah.samy@gmail.com', '_blank')}
             </Button>
             <Button
               size="lg"
