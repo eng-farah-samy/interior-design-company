@@ -352,7 +352,7 @@ export default function ProfileBranding() {
     },
     {
       title: " Research and Development Analyst",
-      company: "StartUp Hub",
+      company: "Alexandria Port Authority ",
       period: "2021 - 2021",
       description: "Handled data storage, retrieval, and analysis to evaluate system performance and requirements. Provided recommendations and plans for new system implementations and enhancements based on analytical insights.",
       skills: ["Excel", "Power Bi"],
