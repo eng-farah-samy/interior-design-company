@@ -537,15 +537,15 @@ export default function ProfileBranding() {
                 <CardContent className="space-y-4">
                   <div className="flex items-center gap-3">
                     <Mail className="h-5 w-5 text-blue-400" />
-                    <span className="text-slate-300">ahmed@example.com</span>
+                    <span className="text-slate-300">eng.farah.samy@gmail.com</span>
                   </div>
                   <div className="flex items-center gap-3">
                     <Phone className="h-5 w-5 text-green-400" />
-                    <span className="text-slate-300">+20 123 456 7890</span>
+                    <span className="text-slate-300">+20 101 280 8563</span>
                   </div>
                   <div className="flex items-center gap-3">
                     <MapPin className="h-5 w-5 text-red-400" />
-                    <span className="text-slate-300">Cairo, Egypt</span>
+                    <span className="text-slate-300">Alexandria, Egypt</span>
                   </div>
                   <div className="flex items-center gap-3">
                     <Globe className="h-5 w-5 text-purple-400" />
