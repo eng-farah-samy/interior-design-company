@@ -276,7 +276,13 @@ export default function ProfileBranding() {
     { name: "Databases", level: 85, color: "bg-purple-400" },
     { name: "Decision making ", level: 80, color: "bg-green-400" },
     { name: "Business intelligence ", level: 75, color: "bg-yellow-400" },
-    
+    { name: "Python for data analysis", level: 70, color: "bg-orange-400" },
+    { name: "Statistics", level: 95, color: "bg-blue-400" },
+    { name: " Problem-solving", level: 90, color: "bg-blue-500" },
+    { name: "Intelligence Decision support system ", level: 85, color: "bg-purple-400" },
+    { name: "Data mining ", level: 80, color: "bg-green-400" },
+    { name: "Data warehousing ", level: 75, color: "bg-yellow-400" },
+    { name: " Information technology", level: 70, color: "bg-orange-400" },
   ]
 
   // Projects data
@@ -565,48 +571,20 @@ export default function ProfileBranding() {
                   </CardTitle>
                 </CardHeader>
                 <CardContent className="space-y-4">
-                  <div className="grid grid-cols-2 gap-4">
-                    <div className="space-y-3">
-                      <div className="flex items-center gap-2">
-                        <div className="w-2 h-2 bg-blue-400 rounded-full animate-pulse"></div>
-                        <span className="text-white font-medium">React/Next.js</span>
+                  {skills.map((skill, index) => (
+                    <div key={index} className="space-y-2">
+                      <div className="flex justify-between items-center">
+                        <span className="text-white font-medium">{skill.name}</span>
+                        <span className="text-sm text-slate-400">{skill.level}%</span>
                       </div>
-                      <div className="flex items-center gap-2">
-                        <div className="w-2 h-2 bg-blue-500 rounded-full animate-pulse delay-100"></div>
-                        <span className="text-white font-medium">TypeScript</span>
-                      </div>
-                      <div className="flex items-center gap-2">
-                        <div className="w-2 h-2 bg-purple-400 rounded-full animate-pulse delay-200"></div>
-                        <span className="text-white font-medium">UI/UX Design</span>
+                      <div className="w-full bg-slate-700 rounded-full h-2.5">
+                        <div
+                          className={`h-2.5 rounded-full ${skill.color}`}
+                          style={{ width: `${skill.level}%` }}
+                        ></div>
                       </div>
                     </div>
-                    <div className="space-y-3">
-                      <div className="flex items-center gap-2">
-                        <div className="w-2 h-2 bg-green-400 rounded-full animate-pulse delay-300"></div>
-                        <span className="text-white font-medium">Node.js</span>
-                      </div>
-                      <div className="flex items-center gap-2">
-                        <div className="w-2 h-2 bg-yellow-400 rounded-full animate-pulse delay-400"></div>
-                        <span className="text-white font-medium">Python</span>
-                      </div>
-                      <div className="flex items-center gap-2">
-                        <div className="w-2 h-2 bg-orange-400 rounded-full animate-pulse delay-500"></div>
-                        <span className="text-white font-medium">Mobile Development</span>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div className="mt-6 pt-6 border-t border-slate-700">
-                    <h4 className="text-lg font-semibold text-white mb-3">Additional Skills</h4>
-                    <div className="flex flex-wrap gap-2">
-                      <Badge className="bg-slate-700 text-slate-300 hover:bg-slate-600">JavaScript</Badge>
-                      <Badge className="bg-slate-700 text-slate-300 hover:bg-slate-600">CSS/SCSS</Badge>
-                      <Badge className="bg-slate-700 text-slate-300 hover:bg-slate-600">MongoDB</Badge>
-                      <Badge className="bg-slate-700 text-slate-300 hover:bg-slate-600">PostgreSQL</Badge>
-                      <Badge className="bg-slate-700 text-slate-300 hover:bg-slate-600">AWS</Badge>
-                      <Badge className="bg-slate-700 text-slate-300 hover:bg-slate-600">Docker</Badge>
-                    </div>
-                  </div>
+                  ))}
                 </CardContent>
               </Card>
             </div>
